@@ -56,5 +56,17 @@ public class TextBlockTester {
     assertThat(val).isEqualTo(name);
   }
 
+  @Test
+  void ESCAPE_Test() {
+    String text = """
+        Hello, This is Deneb
+        I using Java 17 new feature 'text block'
+        \t It will be useful for coding
+        \n\n
+        Best Regards "deneb"
+      """;
+
+  }
+
 
 }
